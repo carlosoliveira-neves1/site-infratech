@@ -5,9 +5,14 @@ import { FaArrowRight, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icon
 
 const CTA = () => {
   const contactMethods = [
-    { icon: <FaPhoneAlt className="w-6 h-6 text-blue-600" />, title: 'Telefone', value: '(11) 99999-9999', href: 'tel:+5511999999999' },
-    { icon: <FaEnvelope className="w-6 h-6 text-blue-600" />, title: 'E-mail', value: 'contato@techvarejo.com.br', href: 'mailto:contato@techvarejo.com.br' },
-    { icon: <FaMapMarkerAlt className="w-6 h-6 text-blue-600" />, title: 'Endereço', value: 'São Paulo - SP, Brasil', href: '#' },
+    { icon: <FaPhoneAlt className="w-6 h-6 text-blue-600" />, title: 'Telefone', value: '(11) 98648-9257', href: 'tel:+5511986489257' },
+    { icon: <FaEnvelope className="w-6 h-6 text-blue-600" />, title: 'E-mail', value: 'comercial@infratechnologia.com.br', href: 'mailto:comercial@infratechnologia.com.br' },
+    {
+      icon: <FaMapMarkerAlt className="w-6 h-6 text-blue-600" />,
+      title: 'Endereço',
+      value: 'R. Mauro de Araújo Ribeiro, 565 - Cidade D\'Abril, São Paulo - SP, 05182-000',
+      href: 'https://maps.google.com/?q=R.+Mauro+de+Ara%C3%BAjo+Ribeiro,+565+-+Cidade+D%27Abril,+S%C3%A3o+Paulo+-+SP,+05182-000',
+    },
   ];
 
   return (

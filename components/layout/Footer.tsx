@@ -19,9 +19,12 @@ const Footer = () => {
   ];
 
   const contact = [
-    { name: 'contato@infratech.com.br', href: 'mailto:contato@infratech.com.br' },
-    { name: '(11) 99999-9999', href: 'tel:+5511999999999' },
-    { name: 'São Paulo - SP', href: '#' },
+    { name: 'comercial@infratechnologia.com.br', href: 'mailto:comercial@infratechnologia.com.br' },
+    { name: '(11) 98648-9257', href: 'tel:+5511986489257' },
+    {
+      name: 'R. Mauro de Araújo Ribeiro, 565 - Cidade D\'Abril, São Paulo - SP, 05182-000',
+      href: 'https://maps.google.com/?q=R.+Mauro+de+Ara%C3%BAjo+Ribeiro,+565+-+Cidade+D%27Abril,+S%C3%A3o+Paulo+-+SP,+05182-000',
+    },
   ];
 
   const socialLinks = [
