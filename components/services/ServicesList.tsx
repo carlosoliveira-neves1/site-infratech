@@ -1,3 +1,4 @@
+"use client";
 import { motion } from 'framer-motion';
 import { FaMobileAlt, FaLaptopCode, FaMobile, FaSync, FaChartLine, FaShoppingCart } from 'react-icons/fa';
 

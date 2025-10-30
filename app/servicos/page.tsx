@@ -5,8 +5,8 @@ import FAQ from "@/components/services/FAQ";
 import CTA from "@/components/home/CTA";
 
 export const metadata = {
-  title: 'Nossos Serviços | TechVarejo',
-  description: 'Desenvolvimento de aplicativos, webapps, Android e integrações para o varejo.'
+  title: 'Serviços | Infratech',
+  description: 'Aplicativos, webapps, Android e integrações sob medida para o varejo.'
 };
 
 export default function ServicosPage() {
