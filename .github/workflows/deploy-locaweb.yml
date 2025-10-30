@@ -32,5 +32,3 @@ jobs:
           password: ${{ secrets.PASS }}
           localDir: "out"
           remoteDir: "public_html"
-          forceSsl: true
-          options: "--verbose=3"
