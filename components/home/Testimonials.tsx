@@ -25,7 +25,7 @@ const Testimonials = () => {
           {testimonials.map((t, i) => (
             <motion.div key={t.id} className="bg-white rounded-xl shadow p-8 border border-gray-100 relative" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: i * 0.1 }}>
               <div className="absolute top-8 left-8 text-blue-100 text-4xl"><FaQuoteLeft /></div>
-              <p className="text-gray-700 mb-6 relative z-10">"{t.content}"</p>
+              <p className="text-gray-700 mb-6 relative z-10">&ldquo;{t.content}&rdquo;</p>
               <div className="flex items-center mb-4">
                 {[...Array(5)].map((_, j) => (<FaStar key={j} className={`w-5 h-5 ${j < t.rating ? 'text-yellow-400' : 'text-gray-300'}`} />))}
               </div>
